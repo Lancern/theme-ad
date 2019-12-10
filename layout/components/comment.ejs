@@ -20,12 +20,12 @@
 <div class="site-comment-contanier" data-plateform="<%= plateform %>">
   <% if(theme.leancloud.comment){ %>
     <p id="site-comment-info">
-      <i class="fa fa-spinner fa-spin"></i> 评论加载中
+      <i class="fa fa-spinner fa-spin"></i> Loading comments
     </p>
     <div id="site-comment"></div>
   <% } else if(theme.disqus.enable){ %>
     <p id="site-comment-info">
-      <i class="fa fa-warning" style="color: #FB8C00"></i> 请针对 Disqus 开启代理 
+      <i class="fa fa-warning" style="color: #FB8C00"></i> Please enable proxy for Disqus
     </p>
     <div id="disqus_thread"></div>
     <script async>
