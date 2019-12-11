@@ -27,7 +27,7 @@ custom_styles:
 custom_scripts:
 
 # 代码高亮主题: normal | night | night blue | night bright | night eighties
-highlight_theme: "night eighties"
+highlight_theme: "normal"
 
 # 开启数学公式渲染
 mathjax: true
